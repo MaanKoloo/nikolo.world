@@ -30,6 +30,7 @@ header {
     background-color:  rgba(0, 0, 0, 0.50);
     width: 500px;
     transition: all 0.7s;
+    user-select: none;
 }
 
 header > h1 {
@@ -39,6 +40,7 @@ header > h1 {
     padding-bottom: 20px;
     border-bottom: 2px solid #00cfe2;
     transition: font-size 0.7s;
+    user-select: none;
 }
 
 header > p {
@@ -52,6 +54,7 @@ header > p {
   opacity:1;
   background-color:  rgba(0, 0, 0, 0.75);
   transition: all 0.7s;
+  user-select: none;
 }
 .subhead p {
   color: #fff;
@@ -66,6 +69,7 @@ header > p {
     font-family: 'Abel', sans-serif;
     color: #fff;
     text-align: center;
+    user-select: none;
 }
 
 .socials::before{
@@ -100,12 +104,14 @@ header > p {
     box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
     background: url("../assets/bg.jpg") no-repeat center;
     background-color: #00cfe2;
+    user-select: none;
 }
  .vignette {
      background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0.25) 1px, rgba(0, 0, 0, 0.25) 2px);
      -webkit-background-size: 100% 2px;
      background: -moz-repeating-linear-gradient(top, transparent 0px, transparent 1px, rgba(0, 0, 0, 0.25) 1px, rgba(0, 0, 0, 0.25) 2px);
      -moz-background-size: 100% 2px;
+     user-select: none;
 }
 
 
